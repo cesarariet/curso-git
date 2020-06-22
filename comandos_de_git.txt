@@ -1,0 +1,8 @@
+Aca voy a poner los comandos de git
+
+git init            para arrancar un repositorio
+git add .           para agregar archivos al repositorio (el . corresponde con los archivos de la carpeta actual)
+git status          para ver el estado de los archivos.
+git show archivos   para ver los cambios en archivo
+git commit -m comentario    para hacer un commit con un comentario.
+
