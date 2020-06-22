@@ -2,7 +2,9 @@ Aca voy a poner los comandos de git
 
 git init            para arrancar un repositorio
 git add .           para agregar archivos al repositorio (el . corresponde con los archivos de la carpeta actual)
-git status          para ver el estado de los archivos.
-git show archivos   para ver los cambios en archivo
 git commit -m comentario    para hacer un commit con un comentario.
+git status          para ver el estado de los archivos.
 
+git show            para ver los cambios del respositorio
+git log             muestra todos los commit
+git diff numero_commit_viejo numero_commit_nuevo    para comparar dos versiones donde los numero salen comando anterior.
