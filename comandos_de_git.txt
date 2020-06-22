@@ -14,3 +14,7 @@ git reset --hard numero_commit          para volver a un commit especifico olvid
 git reset --soft numero_commit          para volver a un commit sin borrar los commit posteriores.
 git checkout numero_commit archivo      para volver archivo a la versión del numero_commit
 git checkout master archivo             vuelvo a la versión de archivo contenida en el ultimo commit
+
+
+git rm --cached archivo     elimina los archivo agregado con comando git add pero no los borra del disco duro
+git rm -f archivo           elimina el archivo argregado con git add y también del disco duro
