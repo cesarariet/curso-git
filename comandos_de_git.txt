@@ -28,3 +28,6 @@ get pull                    hace lo mismo en fetche y merge
 
 git branch nombre_rama           crea una rama con el nombre indicado (pero no me cambia de rama)
 git checkout nombre_rama         cambia de rama
+
+
+git merge nombre_rama           hace una función de nombre_rama hacia la rama HEAD del momento de invocar el comando. El resultado queda en la rama HEAD.
