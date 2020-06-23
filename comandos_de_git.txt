@@ -15,7 +15,7 @@ git reset --hard numero_commit          para volver a un commit especifico olvid
 git reset --soft numero_commit          para volver a un commit borrando todo los commit posteriores pero sin borrar el estado actual del directorio en el disco duro.
 git checkout numero_commit archivo      para volver archivo a la versión del numero_commit
 git checkout master archivo             vuelvo a la versión de archivo contenida en el ultimo commit
-
+git checkout numero_commit              trae al directorio de trabajo el commit indicado
 
 git rm --cached archivo     elimina los archivo agregado con comando git add pero no los borra del disco duro
 git rm -f archivo           elimina el archivo argregado con git add y también del disco duro
@@ -25,3 +25,6 @@ git push                    envia los archivos al repositorio remoto (se hace lu
 git fetch                   actualiza el repositorio local sin actualizar los archivos de la caperta de trabajo
 git merge                   actualiza la carpeta de trabajo combinando los archivos que estan en la carpeta con la actualización del repositorio
 get pull                    hace lo mismo en fetche y merge
+
+git branch nombre_rama           crea una rama con el nombre indicado (pero no me cambia de rama)
+git checkout nombre_rama         cambia de rama
