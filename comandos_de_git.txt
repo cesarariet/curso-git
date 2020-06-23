@@ -2,6 +2,7 @@ Aca voy a poner los comandos de git
 
 git init            para arrancar un repositorio
 git add .           para agregar archivos al repositorio (el . corresponde con los archivos de la carpeta actual)
+                    si no agregamos un archivo... el garbash colector eliminara el archivo en algun momento
 git commit -m comentario    para hacer un commit con un comentario.
 git status          para ver el estado de los archivos.
 
@@ -18,3 +19,9 @@ git checkout master archivo             vuelvo a la versión de archivo contenid
 
 git rm --cached archivo     elimina los archivo agregado con comando git add pero no los borra del disco duro
 git rm -f archivo           elimina el archivo argregado con git add y también del disco duro
+
+git clone url               para descargar un proyecto remoto generando todos los archivos en la carpeta y traer una copia del repositorio
+git push                    envia los archivos al repositorio remoto (se hace luego del commit local)
+git fetch                   actualiza el repositorio local sin actualizar los archivos de la caperta de trabajo
+git merge                   actualiza la carpeta de trabajo combinando los archivos que estan en la carpeta con la actualización del repositorio
+get pull                    hace lo mismo en fetche y merge
