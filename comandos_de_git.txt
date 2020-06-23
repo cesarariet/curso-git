@@ -10,8 +10,8 @@ git log             muestra todos los commit
 git log --stat      muestra cuales fueron los cambios en cada commit
 git diff numero_commit_viejo numero_commit_nuevo    para comparar dos versiones donde los numero salen comando anterior.
 
-git reset --hard numero_commit          para volver a un commit especifico olvidando todos los commit posteriores.
-git reset --soft numero_commit          para volver a un commit sin borrar los commit posteriores.
+git reset --hard numero_commit          para volver a un commit especifico olvidando todos los commit posteriores y borrando el estado actual del directorio en el disco duro.
+git reset --soft numero_commit          para volver a un commit borrando todo los commit posteriores pero sin borrar el estado actual del directorio en el disco duro.
 git checkout numero_commit archivo      para volver archivo a la versión del numero_commit
 git checkout master archivo             vuelvo a la versión de archivo contenida en el ultimo commit
 
