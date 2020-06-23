@@ -1,2 +1,2 @@
 # curso-git
-Mis apuntes del curso de hoy y github
+Mis apuntes del curso de GIT y GITHUB
