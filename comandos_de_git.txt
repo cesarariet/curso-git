@@ -35,4 +35,4 @@ git merge nombre_rama           hace una función de nombre_rama hacia la rama H
 
 git remote add origin url_github                    guarda la url_github del repositorio con el nombre origin
 git pull origin master --allow-unrelated-histories      hace un fetch y merge de origin en master (la opcion --allow-unrelated-histories es cuando el repositorio local ya exsite y git no lo tiene relacionado con el repositoio remoto)
-git push origin master                                  sube los cambios locales a repositorio remoto de nombre origin
+git push origin master                                  sube los cambios locales de la rama master a repositorio remoto de nombre origin
